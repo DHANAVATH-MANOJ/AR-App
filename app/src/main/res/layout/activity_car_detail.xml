@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_padding">
+
+        <!-- Car Image Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageCard"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/car_image_height"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="@color/dark_card_background"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/carImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/car_image_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/car1" />
+
+            <!-- Dark overlay for better contrast -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/dark_gradient_overlay" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Car Name -->
+        <TextView
+            android:id="@+id/carNameTextView"
+            style="@style/TextAppearance.App.Headline5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:gravity="center"
+            android:text="@string/car_name"
+            android:textColor="@color/dark_primary_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageCard" />
+
+        <!-- Description Section -->
+        <TextView
+            android:id="@+id/descriptionLabel"
+            style="@style/TextAppearance.App.SectionHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:text="@string/car_description_label"
+            android:textColor="@color/dark_accent_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/carNameTextView" />
+
+        <TextView
+            android:id="@+id/carDescriptionTextView"
+            style="@style/TextAppearance.App.Body1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:lineSpacingExtra="@dimen/line_spacing"
+            android:text="@string/temp2"
+            android:textColor="@color/dark_secondary_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/descriptionLabel" />
+
+        <!-- Tips Section -->
+        <TextView
+            android:id="@+id/tipsLabel"
+            style="@style/TextAppearance.App.SectionHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:text="@string/car_tips_label"
+            android:textColor="@color/dark_accent_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/carDescriptionTextView" />
+
+        <TextView
+            android:id="@+id/carTipsTextView"
+            style="@style/TextAppearance.App.Body2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="8dp"
+            android:lineSpacingExtra="@dimen/line_spacing"
+            android:text="@string/temp1"
+            android:textColor="@color/dark_tertiary_text"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipsLabel" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">AR_APP</string>
+    <string name="places">Place</string>
+    <string name="select_a_car">Select a Car</string>
+    <string name="start_ar_view">Start AR View</string>
+    <string name="view_car_details">View Car Details</string>
+    <string name="Car1_info">The car in the image is the legendary Porsche 911 Turbo (930) — widely regarded as Porsche’s first true supercar. Produced from 1975 to 1989, it set the stage for high-performance road cars and became an icon due to its aggressive looks, raw turbo power, and tail-happy driving dynamics.</string>
+    <string name="Car2_info">The Jiotto Caspita is a rare and exotic Japanese supercar prototype developed in the late 1980s and early 1990s. Designed as a “Formula One car for the road,” the Caspita stood out for its futuristic styling and F1-derived technology.</string>
+    <string name="Car3_info">The 1965 Ford Mustang is one of the most iconic American muscle cars ever made. Introduced in April 1964, it sparked the beginning of the \"pony car\" class — affordable, compact, highly styled cars with sporty performance.</string>
+    <string name="Car1_tip">The 1965 Ford Mustang shines best with a vintage, muscle-car vibe—highlight its roar, stripes, and chrome in a retro garage or open-road scene</string>
+    <string name="Car2_tip">The Jiotto Caspita is a rare F1-inspired prototype, so emphasize its exclusivity and futuristic design in a sleek, high-tech showroom</string>
+    <string name="Car3_tip">The Porsche 911 Turbo 930 thrives in moody, high-performance settings—capture its raw turbo power and iconic silhouette in a dark, dramatic environment.</string>
+    <string name="car_name">Car Name</string>
+    <string name="car_description">Car Description:</string>
+    <string name="car_tips">Car Tips:</string>
+    <string name="temp1">Regular maintenance and premium fuel ensure best performance.</string>
+    <string name="temp2">This is a sleek, high-performance sports car known for its aerodynamics and speed.</string>
+    <string name="car_details_title">Car Details</string>
+    <string name="car_image_description">Car image</string>
+    <!-- App -->
+
+
+    <!-- Content Descriptions -->
+    <string name="car_hero_image_description">Car hero image</string>
+    <string name="engine_icon_description">Engine power icon</string>
+    <string name="speed_icon_description">Top speed icon</string>
+    <string name="acceleration_icon_description">Acceleration icon</string>
+    <string name="description_icon_description">Description icon</string>
+    <string name="tips_icon_description">Tips and features icon</string>
+    <string name="share_car_description">Share car information</string>
+
+    <!-- Labels -->
+    <string name="car_description_label">Overview</string>
+    <string name="car_tips_label">Features &amp; Tips</string>
+    <string name="share_action">Share</string>
+
+    <!-- Stats Labels -->
+    <string name="power_label">Power</string>
+    <string name="speed_label">Top Speed</string>
+    <string name="acceleration_label">0–100 km/h</string>
+
+    <!-- Sample Data (replace with actual data) -->
+    <string name="engine_power">450 HP</string>
+    <string name="top_speed">320 km/h</string>
+    <string name="acceleration">3.8s</string>
+
+</resources>

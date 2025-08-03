@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design 3.0 Color System -->
+
+    <!-- Primary Colors -->
+    <color name="primary_color">#1565C0</color>
+    <color name="primary_variant">#0D47A1</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#FF6F00</color>
+    <color name="secondary_variant">#E65100</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_color">#FF5722</color>
+    <color name="accent_variant">#D84315</color>
+
+    <!-- Surface Colors -->
+    <color name="surface_color">#FAFAFA</color>
+    <color name="on_surface">#212121</color>
+    <color name="surface_variant">#F5F5F5</color>
+
+    <!-- Background Colors -->
+    <color name="on_background">#212121</color>
+
+    <!-- Text Colors -->
+    <color name="hint_text_color">#BDBDBD</color>
+
+    <!-- Utility Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- UI Element Colors -->
+    <color name="stroke_color">#E0E0E0</color>
+    <color name="divider_color">#EEEEEE</color>
+
+    <!-- Status Colors -->
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="error_color">#F44336</color>
+
+    <!-- Card Background -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="stat_card_background">#F8F9FA</color>
+    <color name="dark_background">#0D1117</color>
+    <color name="dark_surface">#161B22</color>
+    <color name="dark_card_background">#21262D</color>
+
+    <!-- Dark Theme Text Colors -->
+    <color name="dark_primary_text">#F0F6FC</color>
+    <color name="dark_secondary_text">#C9D1D9</color>
+    <color name="dark_tertiary_text">#8B949E</color>
+    <color name="dark_hint_text">#6E7681</color>
+
+    <!-- Dark Theme Accent Colors -->
+    <color name="dark_accent_color">#58A6FF</color>
+    <color name="dark_accent_variant">#388BFD</color>
+    <color name="dark_secondary_accent">#F85149</color>
+
+    <!-- Dark Theme UI Element Colors -->
+    <color name="dark_divider">#30363D</color>
+    <color name="dark_border">#21262D</color>
+    <color name="dark_overlay">#010409</color>
+
+    <!-- Original colors for reference -->
+    <color name="background_color">#FAFAFA</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#1134D7</color>
+    <color name="tertiary_text_color">#757575</color>
+
+</resources>
